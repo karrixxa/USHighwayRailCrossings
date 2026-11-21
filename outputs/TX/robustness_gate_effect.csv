@@ -1,0 +1,9 @@
+"device","median","lo95","hi95","p_lt_1","analysis","n"
+"Flashing lights vs passive",1.32380154618321,1.00098801010725,1.77126468679774,0.02425,"Main model (current inventory)",8854
+"Gates vs passive",0.35783847143135,0.295456041512375,0.431526307858555,1,"Main model (current inventory)",8854
+"Flashing lights vs passive",0.968049431058721,0.770087545170129,1.20333801077436,0.6135,"Device as of 2015, all 2015 crossings (biased)",12171
+"Gates vs passive",0.80404880900402,0.669429942988452,0.967235375769809,0.98925,"Device as of 2015, all 2015 crossings (biased)",12171
+"Flashing lights vs passive",0.636608209133981,0.502106366678023,0.804824307321567,1,"Device as of 2015, crossings still open",7789
+"Gates vs passive",0.448306474051614,0.370536335732074,0.54454850489013,1,"Device as of 2015, crossings still open",7789
+"Flashing lights vs passive",1.18097195017185,0.837707835884499,1.65069735469798,0.1605,"Device as of 2015, still open and unchanged",6633
+"Gates vs passive",0.359747438357112,0.28947897822508,0.447348089572025,1,"Device as of 2015, still open and unchanged",6633

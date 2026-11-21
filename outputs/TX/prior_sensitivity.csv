@@ -1,0 +1,16 @@
+"prior","quantity","median","lo95","hi95"
+"Baseline: N(0, 1)","Gates vs passive (rate ratio)",0.35783847143135,0.295456041512375,0.431526307858555
+"Baseline: N(0, 1)","Flashing lights vs passive (rate ratio)",1.32380154618321,1.00098801010725,1.77126468679774
+"Baseline: N(0, 1)","Between-county SD (log scale)",0.469754770167793,0.37436409333594,0.579381834786782
+"Wide: N(0, 2.5)","Gates vs passive (rate ratio)",0.356185648080359,0.292972486457718,0.43147561143835
+"Wide: N(0, 2.5)","Flashing lights vs passive (rate ratio)",1.32180985795285,0.998532092690647,1.7768477263453
+"Wide: N(0, 2.5)","Between-county SD (log scale)",0.470107223046577,0.373975154207187,0.592172051991896
+"Tight: N(0, 0.5)","Gates vs passive (rate ratio)",0.368953785029749,0.305763605665047,0.444091346013615
+"Tight: N(0, 0.5)","Flashing lights vs passive (rate ratio)",1.32340834777241,1.00083127569933,1.74915795939143
+"Tight: N(0, 0.5)","Between-county SD (log scale)",0.46364500416102,0.366016723874664,0.583529122377417
+"Skeptical device prior","Gates vs passive (rate ratio)",0.397963981121288,0.334246952158879,0.471355916707344
+"Skeptical device prior","Flashing lights vs passive (rate ratio)",1.32050243850426,1.036846730757,1.6805061388271
+"Skeptical device prior","Between-county SD (log scale)",0.467101004539415,0.370914050980789,0.577302909576092
+"Optimistic gate prior","Gates vs passive (rate ratio)",0.337934332977777,0.283446963842471,0.404218935924451
+"Optimistic gate prior","Flashing lights vs passive (rate ratio)",1.27665800770517,0.967818700391608,1.67408245611364
+"Optimistic gate prior","Between-county SD (log scale)",0.466387836746542,0.369149285477713,0.583429185475165

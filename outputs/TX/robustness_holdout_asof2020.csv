@@ -1,0 +1,5 @@
+"K","bayesian","raw_count","exposure","bayes_minus_raw_lo90","bayes_minus_raw_hi90","p_bayes_better"
+25,19,18,3,-10,8,0.448
+50,36,32,11,-8,16,0.694
+100,64,46,20,5,31,0.991
+200,75,80,24,-11,7,0.223

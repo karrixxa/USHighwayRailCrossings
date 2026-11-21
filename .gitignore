@@ -1,0 +1,19 @@
+# Data: public but large; recreate with scripts/01_download_data.py (see data/README.md)
+data/raw/
+data/processed/
+
+# Model fits are hundreds of MB; scripts refit or reuse them locally
+outputs/**/fits/
+*.rds
+
+# Large per-crossing tables (rebuilt by 03_fit_models.R)
+outputs/*/crossing_risk_ranking.csv
+
+# Logs and scratch
+*.log
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.DS_Store
+~$*

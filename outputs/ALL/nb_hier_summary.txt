@@ -1,0 +1,35 @@
+ Family: negbinomial 
+  Links: mu = log 
+Formula: crashes ~ device + z_aadt + z_trains + z_speed + tracks2 + urban + lt1_train + (1 | statename) + (1 | statename:countycode) 
+   Data: d (Number of observations: 120211) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Multilevel Hyperparameters:
+~statename (Number of levels: 50) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.33      0.04     0.26     0.43 1.01     1084     1835
+
+~statename:countycode (Number of levels: 2680) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     0.46      0.02     0.42     0.49 1.00     1699     2460
+
+Regression Coefficients:
+             Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept       -2.40      0.06    -2.51    -2.29 1.00     1134     1949
+devicelights    -0.24      0.04    -0.31    -0.17 1.00     5110     3137
+devicegates     -0.90      0.03    -0.96    -0.84 1.00     4091     3228
+z_aadt           0.60      0.01     0.58     0.63 1.00     5397     3374
+z_trains         0.48      0.02     0.45     0.51 1.00     4717     3571
+z_speed          0.65      0.02     0.61     0.69 1.00     6115     2833
+tracks2          0.31      0.03     0.24     0.37 1.00     6151     3553
+urban            0.29      0.02     0.24     0.34 1.00     6864     3448
+lt1_train        0.11      0.05     0.02     0.19 1.00     7349     3207
+
+Further Distributional Parameters:
+      Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+shape     0.71      0.02     0.66     0.75 1.00     7616     2721
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
